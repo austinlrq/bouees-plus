@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "font-2";
+  src: url(./assets/ConcertOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: "font-1";
+  src: url(./assets/Rubik-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: "font-1", sans-serif;
+  background: url(./images/water-1018808_1920.jpg) fixed center/cover no-repeat;
+  height: 250vh;
+}
+
+a:hover {
+  cursor: pointer;
+  transform: scale(1.08);
+}
+.header {
+  position: relative;
+  display: flex;
+  background-color: rgba(102, 102, 102, 0.935);
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 0.5%;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.title {
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 400%;
+  color: rgb(30, 201, 253);
+  text-shadow: rgb(42 44 165 / 62%) 0px 0px 20px;
+  display: flex;
+  font-family: "font-2", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: transform 0.4s;
+}
+
+.bouton1 {
+  position: absolute;
+  /* border: black 2px solid; */
+  /* position: relative; */
+  display: flex;
+  width: 10%;
+  left: 9%;
+  color: black;
+  float: left;
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform 0.4s;
+}
+.bouton2 {
+  position: absolute;
+  display: flex;
+  width: 7%;
+  right: 9%;
+  color: black;
+  float: left;
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform 0.4s;
+}
+.bug {
+  position: absolute;
+  display: flex;
+  width: 3%;
+  right: 3%;
+  color: black;
+  float: left;
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform 0.4s;
+}
+.plus {
+  position: absolute;
+  display: flex;
+  width: 3%;
+  left: 3%;
+  color: black;
+  float: left;
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform 0.4s;
+}
+.art {
+  background-color: rgba(255, 255, 255, 0.829);
+  border-radius: 1%;
+  display: flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.3%;
+  padding-bottom: 0.3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  flex-wrap: wrap;
+}
+
+.artbox {
+  position: relative;
+  max-width: 20%;
+  max-height: 20%;
+  min-width: 20%;
+  min-height: 20%;
+  min-width: 100px;
+  min-height: 300px;
+  padding: 1%;
+  margin: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: black 2px solid;
+  text-decoration: none;
+  color: black;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  overflow: hidden;
+  transition: transform 0.4s;
+}
+
+.image_art {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  transform: translateY(-27%);
+}
+
+.texte_art {
+  font-size: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  top: 60%;
+  /* bottom: 17%; */
+  white-space: normal;
+  left: 2%;
+}
+
+.prix_art {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  bottom: 1%;
+}
