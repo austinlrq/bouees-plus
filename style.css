@@ -94,7 +94,7 @@ a:hover {
 .icon {
   display: flex;
   width: 45px;
-  height: fit-content;
+  height: 45px;
 }
 @media (max-width: 767px) {
   .header {
