@@ -79,7 +79,11 @@ a:hover {
   text-decoration: none;
   transition: transform 0.4s;
   margin-right: -3%;
+  justify-content: center;
+  border-bottom: 3px solid rgb(22, 209, 22);
+  padding-bottom: 5px;
 }
+
 .plus {
   order: -2;
   display: flex;
